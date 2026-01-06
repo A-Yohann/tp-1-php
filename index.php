@@ -5,7 +5,8 @@ require __DIR__ . '/config/database.php';
 $stmt = $pdo->prepare("
     SELECT * FROM films
     ORDER BY created_at DESC
-    LIMIT 4
+    LIMIT 3
+    
 ");
 $stmt->execute();
 $films = $stmt->fetchAll();
@@ -23,6 +24,7 @@ $films = $stmt->fetchAll();
 <nav>
 <?php if (isset($_SESSION['user_id'])): ?>
     Bonjour <?= htmlspecialchars($_SESSION['prenom']) ?> |
+    <a href="index.php">Derniers films</a>
     <a href="films/add.php">Ajouter un film</a> |
     <a href="films/catalogue.php">Catalogue</a>
     <a href="auth/logout.php">Déconnexion</a>
