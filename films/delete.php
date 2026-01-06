@@ -13,10 +13,7 @@ if (isset($_GET['id'])) {
         "DELETE FROM films WHERE id = ? AND user_id = ?"
     );
     
-    $stmt->execute([
-        $_GET['id'], 
-        $_SESSION['user']['id'] 
-    ]);
+    $stmt->execute([$_GET['id'], $_SESSION['user_id']]);
 }
 
 header('Location: ../index.php');
