@@ -77,3 +77,111 @@ nav a:hover {
 .btn-view { background: #3498db; color: white; }
 .btn-edit { background: #f1c40f; color: white; }
 .btn-delete { background: #e74c3c; color: white; }
+
+
+/* --- Styles pour la page de connexion uniquement --- */
+.connexion-form {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    margin: 80px auto;
+}
+
+.connexion-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.connexion-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.connexion-form input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.connexion-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.connexion-form button:hover {
+    background: #5a67d8;
+}
+
+.connexion-form .error {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: red;
+}
+
+
+/* --- Styles pour la page inscription uniquement --- */
+.inscription-form {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    margin: 80px auto;
+}
+
+.inscription-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inscription-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.inscription-form input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.inscription-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.inscription-form button:hover {
+    background: #5a67d8;
+}
+
+.inscription-form .error {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: red;
+}

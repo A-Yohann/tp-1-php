@@ -23,8 +23,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $error = "Email ou mot de passe incorrect";
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Connexion</title>
+</head>
+<body>
+    
+</body>
+</html>
 
-<form method="post">
+<form method="post" class="connexion-form">
     <h2>Connexion</h2>
 
     <?php if ($error): ?>
